@@ -3,7 +3,8 @@
 
 body {
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
+  width: 800px;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -55,9 +56,11 @@ a {
 
 .page-header {
   color: #fff;
+  height: 400px;
   text-align: center;
   background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  background-image: url(../img/01.png);
+  background-repeat: no-repeat; }
 
 @media screen and (min-width: 64em) {
   .page-header {
