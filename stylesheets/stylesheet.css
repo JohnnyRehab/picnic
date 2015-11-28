@@ -59,7 +59,7 @@ a {
   height: 400px;
   text-align: center;
   background-color: #159957;
-  background-image: url(../img/01.png);
+  background-image: url(../img/p-hbg.png);
   background-repeat: no-repeat; }
 
 @media screen and (min-width: 64em) {
@@ -77,6 +77,12 @@ a {
 .project-name {
   margin-top: 0;
   margin-bottom: 0.1rem; }
+
+  .project-name h1{
+    width:  694px;
+    height: 236px;
+    margin: 0 auto;
+  }
 
 @media screen and (min-width: 64em) {
   .project-name {
