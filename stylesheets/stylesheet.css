@@ -36,23 +36,23 @@ a {
     width:710px;
     margin: 0 auto;
   }
-  .div020 h2{
+  .div020 a{
     display: inline-block;
     margin: 0 20px 0 0;
   }
-  .div020 h2:hover{ opacity: 0.6;}
+  .div020 a:hover{ opacity: 0.6;}
 
-  .div020 h2:last-child {margin-right: 0;}
+  .div020 a:last-child {margin-right: 0;}
 
 .project-tagline {  }
 
-.about-picnic {
+.tile{
   width:  800px;
   background-image: url(../img/tile.png);
   padding-bottom: 40px;
 }
 
-.main-content img {
+.about-p-01 img {
   margin: 0 auto 10px;
 }
 

@@ -1,47 +1,83 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
   <head>
     <meta charset="UTF-8">
-    <title>Picnic by JohnnyRehab</title>
+    <title>ぴくにっ区 Picnic</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ぴくにっ区とは、">
+    <meta name="keywords" content="ぴくにっ区,picnic,もも,momo,ゆな,yuna">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+
+    <script type="text/javascript"><!--
+    function ChangeTab(tabname) {
+       // 全部消す
+       document.getElementById('page1-1').style.display = 'none';
+       document.getElementById('page1-2').style.display = 'none';
+       document.getElementById('page1-3').style.display = 'none';
+       document.getElementById('page1-4').style.display = 'none';
+       // 指定箇所のみ表示
+       document.getElementById(tabname).style.display = 'block';
+    }
+    // --></script>
   </head>
   <body>
     <section class="page-header clearfix">
       <div class="div010">
         <h1><img src="img/logo.png"></h1>
       </div>
-      <div class="div020 clearfix">
-      <h2><img src="img/about.png"></h2>
-      <h2><img src="img/live.png"></h2>
-      <h2><img src="img/blog.png"></h2>
-      <h2><img src="img/ask.png"></h2>
+      <div id="tab_menu1" class="div020 clearfix">
+      <a href="#page1-1" class="tab1" onclick="ChangeTab('page1-1'); return false;"><img src="img/about.png"></a>
+      <a href="#page1-2" class="tab2" onclick="ChangeTab('page1-2'); return false;"><img src="img/live.png"></a>
+      <a href="#page1-3" class="tab3" onclick="ChangeTab('page1-3'); return false;"><img src="img/blog.png"></a>
+      <a href="#page1-4" class="tab4" onclick="ChangeTab('page1-4'); return false;"><img src="img/ask.png"></a>
       </div>
     </section>
 
     <section class="main-content">
-      <div class="about-picnic clearfix">
+      <div id="tab_content1">
+      <div id="page1-1" class="tile clearfix">
         <div class="about-p-01 margin01">
           <img src="./img/momo.png" alt="もも momo">
           <img src="./img/momo-profile.png" alt="もも プロファイル momo profile">
+          <a href="https://twitter.com/Ponzu_is_Ponzu" target="_blank"><img src="./img/twi32.png"></a>
         </div>
         <div class="about-p-01">
           <img src="./img/yuna.png" alt="ゆな yuna">
           <img src="./img/yuna-profile.png" alt="ゆな プロファイル yuna profile">
+          <a href="https://twitter.com/yuna_desu0u0" target="_blank"><img src="./img/twi32.png"></a>
         </div>
-      </div>
+      </div><!-- #page1-1 -->
+
+      <div id="page1-2" class="live tile">
+        LIVE 情報
+      </div><!-- #page1-2 -->
+
+      <div id="page1-3" class="blog tile">
+        BLOG Ameblo
+        <a href="http://ameblo.jp/waku2doki2picnic/" target="_blank">ぴくにっ区ブログ</a>
+        ライブアイドルぴくにっ区の情報をお伝えしていきます☆
+      </div><!-- #page1-3 -->
+
+      <div id="page1-4" class="ask tile">
+        お仕事ください！
+        お問い合わせはこちらから！
+      </div><!-- #page1-4 -->
+    </div><!-- #tab_content1 -->
 
 
-
-      <footer class="site-footer">
-
-      </footer>
+      <footer class="site-footer"></footer>
 
     </section>
-
-
+    <script type="text/javascript">
+    <!--
+    // デフォルトのタブを選択
+    http://allabout.co.jp/gm/gc/23969/5/
+    // -->
+    ChangeTab('page1-1');
+    </script>
   </body>
+
 </html>
