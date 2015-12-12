@@ -48,7 +48,7 @@ a {
 
 .tile{
   width:  800px;
-  background-image: url(../img/tile.png);
+  background-image: url(../img/tile.jpg);
   padding-bottom: 40px;
 }
 
@@ -61,7 +61,7 @@ a {
   float: left;
   width:  365px;
   height: 700px;
-  border:  7px solid #faf000;
+  border:  7px solid #ff8b95;
   border-radius: 8px;
   background-color: #fff;
   margin-top: 20px;
